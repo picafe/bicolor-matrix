@@ -28,3 +28,44 @@ Ordered the 10 pack of LED matricies and the HT16K33 breakout board. I'll protot
 I found this video a few days ago that popped into my YT rec: https://www.youtube.com/watch?v=7fNYj0EXxMs. The PCB design was shown for a few seconds and its quite interesting since he uses the same Holtek driver (along with an I2C address translator; LTC4316) to drive a row of 8 displays, each with 20 pins: 
 ![](./assets/coolmatrix.png)
 I'll try and see what magic was performed here (since idk much about this) and see if I can emulate it !!
+update: I decided to just go with 4 ICs chained together this is probably beyond my scope
+
+## 2025-05-30
+The shipment of the LED matricies and breakout board arrived!! I will assemble them soon (according to the Adafruit schematic) with an arduino nano probably to test. One thing I noticied is that the breakout is kinda sketchy in quality (ive never seen such a thin pcb). Anwyays, it should be fine.
+![](./assets/20250530_153645.jpg)
+![](./assets/20250531_221706.jpg)
+
+## 2025-06-03
+Finally got time to wire everything together. Took me roughly 2hrs to make all the breadboard connections according to the schematic. But it works!\
+![](./assets/20250603_222850.jpg)
+I tested using the Adafruit example sketch. There are some buggy sections which I'll have to look into later, but for now it looks promising. I guess it's PCB design time. My updates might be less frequent since I'll be busy with a bunch of things.
+
+## 2025-06-12
+Its been a while (got busy) but finally got around to making the schematic (I made one copy and then copy pasted it 4 times; it should work for now). It took be a bit to import the LED controller IC symbol from easyeda (setting up easyeda2kicad and downloading plugins and stuff). The routing is kinda messy but we ball. Took me roughly 2-3hrs I lost track. 
+![](./assets/image00.png)
+I downloaded and imported the Adafruit board into KiCad so I can reference it while making mine, but my design will be pretty different since they mounted the display on the back of the PCB (mine will be in the front so the pins are mirrored/flipped)
+![](./assets/image01.png)
+
+
+## 2025-07-10
+OKAY SO life happened. Starting the PCB was quite intimidating so I kind of clicked switch to PCB and left the project for a month. BUT I have convinced myself to get started. And yes it is a lot harder than I thought routing this is pretty pain since I've only done HC solder before. Will prob have to use a lot of vias. Not dealing with any important signals so I should be fine for the most part. \
+Slight time skip but no picture for now since I had to delete all my traces a few times. Will be slaving away at this tomorrow.
+
+## 2025-07-11
+Some progress. Was pain, idk what I'm doing. Not much to say. Took me roughly an hour or 2. 
+![](./assets/image02.png)
+
+
+## 2025-07-13
+OKAY SO AFTER GOING THROUGH ALL THAT... I was using the SOP28 footprint for the LED driver when I meant to use SSOP28. Welp.. time to restart the routing again. Actually I'll do this tomorrow I'm tired.
+
+
+## 2025-07-14
+Honestly after this much practice, this is becoming not as hard anymore !! \
+managed to get some decent progress:
+![](./assets/image03.png)
+took about 2hrs
+
+## 2025-07-15
+Finally pretty much done one module, but now I've realized that I can't really copy-paste the design over. I gotta use layout replication (https://www.youtube.com/watch?v=DBfI2wwno5o) and using a custom goofy schematic size wasn't the best idea. I thought I could get away with the jank 😔. I will do that soon. I will also upload the PCB to this repo soon but I'm editing this on WSL and my project folder is on Windows so I got a bit lazy in doing that until now.
+![](./assets/image04.png)
