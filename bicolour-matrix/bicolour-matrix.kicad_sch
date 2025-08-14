@@ -745,6 +745,26 @@
 	)
 	(text "SDA"
 		(exclude_from_sim no)
+		(at 20.828 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ac49549-b2be-412a-a9e6-814d0d4926bb")
+	)
+	(text "SCL\n"
+		(exclude_from_sim no)
+		(at 23.622 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7ef63fc-0098-4132-be8b-64503009d23c")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
 		(at 217.932 108.712 0)
 		(effects
 			(font
@@ -758,6 +778,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04571cf9-c12e-49df-8327-ea2798dd4770")
+	)
+	(junction
+		(at 71.12 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c03bfd-e5c2-4cca-bd6d-0f6473e4d723")
+	)
+	(junction
+		(at 27.94 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f2c316-49e2-4d57-97ba-4b2d193db70a")
+	)
+	(junction
+		(at 25.4 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193cba56-99c0-440e-89a8-cad3465d9211")
+	)
+	(junction
+		(at 54.61 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3086acfd-54c7-4c61-99bb-2e350dc5e54d")
 	)
 	(junction
 		(at 95.25 134.62)
@@ -794,6 +838,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85fe87e4-9b94-4080-91e3-d5efca7ad800")
+	)
+	(junction
+		(at 67.31 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1d58e65-393d-490f-b993-5901dde6f0ee")
+	)
+	(junction
+		(at 58.42 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1f6f8b4-2bfc-4acb-85e4-af13fa217740")
 	)
 	(junction
 		(at 137.16 132.08)
@@ -859,6 +915,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 102.87) (xy 22.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059e03c2-717f-4dfb-969e-b8ebb94637f6")
+	)
+	(wire
+		(pts
+			(xy 27.94 100.33) (xy 22.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077e3d46-fec7-41bc-9f6e-3d0498e0df00")
+	)
+	(wire
+		(pts
 			(xy 173.99 132.08) (xy 137.16 132.08)
 		)
 		(stroke
@@ -886,6 +962,16 @@
 			(type default)
 		)
 		(uuid "1321a439-6cb6-4eab-856f-733e467195c2")
+	)
+	(wire
+		(pts
+			(xy 43.18 137.16) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a1a895-43d0-4ac3-b736-014c0773aaab")
 	)
 	(wire
 		(pts
@@ -919,6 +1005,36 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 95.25) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a195d84-d6d0-4eb2-b518-e7f39309ae0c")
+	)
+	(wire
+		(pts
+			(xy 22.86 97.79) (xy 43.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b46c62b-1862-46fe-873b-f8333e19b920")
+	)
+	(wire
+		(pts
+			(xy 48.26 134.62) (xy 54.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0e4d5b-a496-496a-80fc-6f6ea1bbc94b")
+	)
+	(wire
+		(pts
 			(xy 133.35 106.68) (xy 133.35 134.62)
 		)
 		(stroke
@@ -949,6 +1065,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 139.7) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba02df2-951c-4e98-b620-feaddfefaabe")
+	)
+	(wire
+		(pts
 			(xy 99.06 106.68) (xy 99.06 132.08)
 		)
 		(stroke
@@ -956,6 +1082,16 @@
 			(type default)
 		)
 		(uuid "3d1c6763-5842-4d1e-a07d-296d9c37165e")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 48.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467aff26-a373-4b9a-8c72-5ff9d62c722e")
 	)
 	(wire
 		(pts
@@ -1039,6 +1175,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 102.87) (xy 45.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd4a095-42b2-4c71-9aa7-47c46c3a6123")
+	)
+	(wire
+		(pts
 			(xy 170.18 106.68) (xy 170.18 134.62)
 		)
 		(stroke
@@ -1056,6 +1202,26 @@
 			(type default)
 		)
 		(uuid "7963355c-2b9b-4ee6-bc43-a396fb75e106")
+	)
+	(wire
+		(pts
+			(xy 40.64 95.25) (xy 40.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df34bf6-3b11-499e-bfa2-7d81081d82f9")
+	)
+	(wire
+		(pts
+			(xy 27.94 100.33) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802201ed-c299-423e-ba3a-d4264bed2823")
 	)
 	(wire
 		(pts
@@ -1079,6 +1245,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 102.87) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f30c95-dd69-43cc-9c80-7e43b7a70027")
+	)
+	(wire
+		(pts
 			(xy 146.05 106.68) (xy 146.05 139.7)
 		)
 		(stroke
@@ -1086,6 +1262,16 @@
 			(type default)
 		)
 		(uuid "964e61d1-dddd-4d82-bf84-8a5224151e92")
+	)
+	(wire
+		(pts
+			(xy 45.72 132.08) (xy 58.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97af32e8-07a0-4e9d-8d48-fa660299b009")
 	)
 	(wire
 		(pts
@@ -1247,6 +1433,81 @@
 		)
 		(uuid "f3681c99-5d65-468f-913a-9f040614c0fe")
 	)
+	(wire
+		(pts
+			(xy 43.18 97.79) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e1196b-18d8-46d9-8bf6-e9e9728ee302")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a702e2e-8b70-46fe-a77e-09dd1adeb2b6")
+		(property "Reference" "#PWR08"
+			(at 220.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9696e953-a609-4bd4-8c74-ac1d32e7fbb1")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VDD")
 		(at 213.36 99.06 0)
@@ -1373,6 +1634,72 @@
 			(project ""
 				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 25.4 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a1b423-b5dc-4b4f-9b28-a42726bf9e3c")
+		(property "Reference" "#PWR014"
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe497fb8-e5e6-443c-b7a2-f6f72ea24adf")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1700,6 +2027,409 @@
 			(project ""
 				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 220.98 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eee3941-dfbb-4609-8862-ac1d21bcdd75")
+		(property "Reference" "#PWR07"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea1e94d0-8111-4c04-bd4c-aa14b53750f3")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 17.78 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdafd978-0f59-491f-ae1c-2b4d16cf0e24")
+		(property "Reference" "J2"
+			(at 16.51 100.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 16.51 97.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2245afcb-b06c-40d1-9eb6-e9bc4b0825b0")
+		)
+		(pin "4"
+			(uuid "d3dc19ce-4aa6-48ce-a168-828c34d8f846")
+		)
+		(pin "1"
+			(uuid "66772abd-c05a-4a93-9517-a1ceb3b0d322")
+		)
+		(pin "3"
+			(uuid "f7476c77-825f-4ae5-8f6c-d8b7c483dd98")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8f11e75-2680-4c81-99c4-eae00aeaa28f")
+		(property "Reference" "#PWR011"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2e28ab6-9731-4f60-82e0-b32b2fe7454c")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0805,10uF")
+		(at 220.98 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf766ac-d8ff-4492-8f08-5d5732709ffa")
+		(property "Reference" "C6"
+			(at 223.52 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 223.52 82.55 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0805"
+			(at 219.202 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5988028"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.013USD"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL21A106KAYNNNE"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "25V"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7fae71-aac0-47d7-8810-3d4d6dd8ed36")
+		)
+		(pin "2"
+			(uuid "6690fbef-c900-42ae-a590-c3d5d287815d")
+		)
+		(instances
+			(project "bicolour-matrix"
+				(path "/e84f39ba-210d-4605-8a72-491c35119d1d"
+					(reference "C6")
 					(unit 1)
 				)
 			)
