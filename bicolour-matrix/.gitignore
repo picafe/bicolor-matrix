@@ -33,7 +33,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 *.tsv
 
 # Misc
@@ -41,3 +40,4 @@ fp-info-cache
 *.raw
 .svg2shenzhen-cache
 bicolour-matrix-backups
+production/backups
