@@ -1,3 +1,10 @@
+---
+Title: "Bicolour Matrix PCB"
+Author: "Surya"
+Description: "Red and Green LED 32x8 Matrix with HT16K33A"
+Created On: "19/5/2025"
+---
+
 ## 2025-05-19
 Four years ago, I built a custom clock with off-the-shelf parts (Arduino Nano, DS3231 breakout, 32x8 MAX7219 LED Matrix, all on a breadboard with 2 buttons). Although it has worked very reliably, only needing a few battery replacements and resetting the nano a few times, I want to make a custom solution.
 
@@ -69,3 +76,14 @@ took about 2hrs
 ## 2025-07-15
 Finally pretty much done one module, but now I've realized that I can't really copy-paste the design over. I gotta use layout replication (https://www.youtube.com/watch?v=DBfI2wwno5o) and using a custom goofy schematic size wasn't the best idea. I thought I could get away with the jank 😔. I will do that soon. I will also upload the PCB to this repo soon but I'm editing this on WSL and my project folder is on Windows so I got a bit lazy in doing that until now.
 ![](./assets/image04.png)
+
+## 2025-08-10
+I just restarting working on it :pf:. Yet again got busy. Anyways, finally setup the replicate layout plugin (the guide was useful) and managed to 4x the layout properly. I have yet to put the 
+
+## 2025-08-12
+
+## 2025-08-13
+
+## 2025-08-15
+
+
