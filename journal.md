@@ -78,12 +78,15 @@ Finally pretty much done one module, but now I've realized that I can't really c
 ![](./assets/image04.png)
 
 ## 2025-08-10
-I just restarting working on it :pf:. Yet again got busy. Anyways, finally setup the replicate layout plugin (the guide was useful) and managed to 4x the layout properly. I have yet to put the 
+I just restarting working on it :pf:. Yet again got busy. Anyways, finally setup the replicate layout plugin (the guide was useful) and managed to 4x the layout properly. I have yet to put the routing for connecting them all together, (and I still have no clue what I'm doing) but overall good progress today.
 
 ## 2025-08-12
+Got some feedback from a friend and adjusted my routing a bit, and also synced it with the other 4 modules. I tried to route the power/gnd/i2c lines but my routing seems very sketchy. I'll try to improve on it tomorrow. Not much else to say.
 
 ## 2025-08-13
+I got some feedback from the Slack and added stitching vias to my ground plane (I did not know these were a thing). I also improved my layout further in terms of connecting it all together and adding polish (rounded corners, silkscreen, fixing small DRC warnings, etc.).
 
 ## 2025-08-15
+Got some more feedback and everything seems to be good. I will verify the connections in the schematic a last time before I mark this part of the project as done. I also created the project and for now the schematic for the adapter/driver board to make a simple but smart clock. I'll add my sketches later but the 2 boards will probably be the same size with standard headers and I can right angle mount a top board with 2 headers using some right angle header pins I have. I just have to make sure the measurements are right.
 
 
