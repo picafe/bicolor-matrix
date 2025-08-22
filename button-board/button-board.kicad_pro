@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -188,8 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.6
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "adapter-board.kicad_pro",
+    "filename": "button-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -625,7 +624,7 @@
   },
   "sheets": [
     [
-      "49b15fa3-cd53-4d6b-9d74-1d88c955c2b1",
+      "3cdd16e5-c844-48b7-ad28-ac3dbaedecba",
       "Root"
     ]
   ],
