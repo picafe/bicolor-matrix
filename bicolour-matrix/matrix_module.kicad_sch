@@ -38240,7 +38240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HT16K33A-28SOP"
+		(property "Value" "HT16K33A-28SSOP"
 			(at 121.9201 167.64 90)
 			(effects
 				(font
@@ -38276,7 +38276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5444737"
+		(property "LCSC Part" "C5444738"
 			(at 123.19 120.65 0)
 			(effects
 				(font

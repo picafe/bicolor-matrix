@@ -2698,7 +2698,7 @@
 				)
 			)
 		)
-		(property "Value" "HT16K33A-28SOP"
+		(property "Value" "HT16K33A-28SSOP"
 			(at -0.1 6.2 90)
 			(layer "F.Fab")
 			(uuid "8910c604-f561-4a19-9227-edd5f77989b7")
@@ -2735,7 +2735,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5444737"
+		(property "LCSC Part" "C5444738"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10219,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Value" "HT16K33A-28SOP"
+		(property "Value" "HT16K33A-28SSOP"
 			(at -0.1 6.2 90)
 			(layer "F.Fab")
 			(uuid "1bd84042-daeb-42a4-b989-22ec224a0866")
@@ -10256,7 +10256,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5444737"
+		(property "LCSC Part" "C5444738"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10728,7 +10728,7 @@
 				)
 			)
 		)
-		(property "Value" "HT16K33A-28SOP"
+		(property "Value" "HT16K33A-28SSOP"
 			(at -0.1 6.2 90)
 			(layer "F.Fab")
 			(uuid "0bb4c0ad-8c45-4860-a833-e7fbe4884a19")
@@ -10765,7 +10765,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5444737"
+		(property "LCSC Part" "C5444738"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15380,7 +15380,7 @@
 				)
 			)
 		)
-		(property "Value" "HT16K33A-28SOP"
+		(property "Value" "HT16K33A-28SSOP"
 			(at -0.1 6.2 90)
 			(layer "F.Fab")
 			(uuid "797c9ac2-5c55-45df-9593-bf77521d6d0f")
@@ -15417,7 +15417,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5444737"
+		(property "LCSC Part" "C5444738"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
