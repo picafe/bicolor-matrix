@@ -1,5 +1,7 @@
 # bicolor-matrix
 
+## project update coming soon (1-2 weeks, expect before dec 2025)
+
 Inspired by the common 32x8 red LED matrix modules that use the MAX7219 IC (and similar clones), I wanted to make my own module, but unlock more colours. Although red LEDs are pretty cool, I wanted more options but without having to change the modules, perhaps just by clicking a button...
 
 (there are also modules/boards with WS2812 RGB LEDs matricies which are practically much better but you need to create a DIY solution for diffusing them)
