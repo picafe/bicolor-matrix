@@ -1,4 +1,4 @@
-25802249309947441
+25807542800277661
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103446,12 +103446,19 @@ Varistor VF
 2
 2
 custom
-PinMatrix05x10P2.54
+Generic-Level-Shifter
 
 
 0
-50
-50
+16
+12
+custom
+RP2040-Zero
+
+
+0
+23
+23
 easyeda2kicad
 SOP-28_L17.9-W7.5-P1.27-LS10.3-BL
 
@@ -103459,6 +103466,20 @@ SOP-28_L17.9-W7.5-P1.27-LS10.3-BL
 0
 28
 28
+easyeda2kicad
+SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR
+
+
+0
+4
+4
+easyeda2kicad
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW
+
+
+0
+3
+3
 xiao_esp32c3
 xiao_esp32c3
 
