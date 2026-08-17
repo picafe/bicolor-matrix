@@ -1,5 +1,7 @@
 # bicolor-matrix
 
+> **This repository has moved to [bicolor-matrix-v2](https://github.com/picafe/bicolor-matrix-v2).**
+
 ![](./assets/20251230_154919.jpg)
 
 A 32x8 bicolor LED matrix module composed of 4 8x8 matrices based on the Holtek HT16K33A I2C LED driver.
